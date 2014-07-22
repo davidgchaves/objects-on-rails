@@ -38,3 +38,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+group :test do
+  gem 'cucumber-rails', '~> 1.4.1'
+  gem 'rspec-rails', '~> 3.0.2'
+  gem 'database_cleaner', '~> 1.3.0'
+end
