@@ -3,5 +3,5 @@ When /^I go to the home page$/ do
 end
 
 Then /^I see the blog title$/ do
-    pending # express the regexp above with the code you wish you had
+  expect(page).to have_content "Watching Paint Dry"
 end
